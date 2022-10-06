@@ -27,7 +27,7 @@ namespace PeterX
         {
 timer1.Start();
             
-            this.sxlib = SxLib.InitializeWinForms(this, @"C:\Users\Justa\OneDrive\Desktop\synapse-launcher-11-17-21\");
+            this.sxlib = SxLib.InitializeWinForms(this, Program.syndir[0]);
             sxlib.AttachEvent += Sxlib_AttachEvent;
             sxlib.LoadEvent += Sxlib_LoadEvent;
             sxlib.Load();
