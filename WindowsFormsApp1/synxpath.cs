@@ -21,9 +21,10 @@ namespace PeterX
 
         private void nopeter_Click(object sender, EventArgs e)
         {
-            if(syndir.TextLength >= 0)
+            if(syndir.Text != null)
             {
                 string[] path = { syndir.Text, "notfirstlaunch" };
+                Thread.Sleep(300);
                 System.IO.File.WriteAllLines("syndir.txt", path);
                 Close();
             }
@@ -43,6 +44,7 @@ namespace PeterX
             if (!System.IO.File.Exists("syndir.txt"))
             {
                 System.IO.File.Create("syndir.txt");
+                Thread.Sleep(300);
                 string[] firstwrite = { "placeholder", "firstlaunch" };
                 File.WriteAllLines("syndir.txt", firstwrite);
                 
