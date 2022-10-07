@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsFormsApp1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PeterX")]
+[assembly: AssemblyDescription("best synx ui")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsApp1")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCompany("catnotadog")]
+[assembly: AssemblyProduct("PeterX")]
+[assembly: AssemblyCopyright("Copyright © catnotadog 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
